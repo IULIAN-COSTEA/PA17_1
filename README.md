@@ -114,6 +114,8 @@ Nevertheless, ROC for Experiment-B is slighly better but only because the optimi
 
 ## **Business related findings and recommendations:**
 
+The selected model should help the bank to choose the correct list of clients to be included in a new marketing campaign. The should be efficient and maximize its Return on Investment (ROI). The campaing will promote a new product (bank deposit with promotional rates) and the success should be measured by the number of clients that created new deposits as the result of the marketing campaign.
+
 **Scenario-1:** - *Marketing campaign with cost optimization*
 
 With the **selected Logistic Regression model** if the bank intend to launch a very targeted campaing while keeping the campaing cost optimal, then with this model they should be able to **identify a list of clients that should be targeted by the new promotion campaign**. 
