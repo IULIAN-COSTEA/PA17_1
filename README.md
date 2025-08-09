@@ -53,7 +53,7 @@ This marketing dataset is related to 17 marketing campaigns that occurred betwee
 
 - y: has the client subscribed a term deposit? (binary: "yes","no")
 
-## **Jupyter notebook file** : [Jupyter Notebook file](/blob/main/PA17_1.ipynb)
+## **Jupyter notebook file** : [Jupyter Notebook file](PA17_1.ipynb)
 
 
 ## **Overall technical findings**
