@@ -58,13 +58,18 @@ This marketing dataset is related to 17 marketing campaigns that occurred betwee
 
 ## **Overall technical findings**
 <div align="justify">
-- For these experiments using accuracy as key evaluation metric is very misleading and not recommended becuae of the very unbalanced data set 90% for the majority class. Considering the business context, identification of bank's clients that would accept a marketing campaing promotion (in this case a good interest rate deposit) the most important evaluation metrics are Precision, Recall and F1-Score overall but even more important in the context of the minority class (which in this case is the accepted promotion). Considering the above the experiments were designed to optimise(increase) F1-Score, which is a better metric for unbalanced dataset because is representing the optimal point between precision and recall metrics. 
+
+  For these experiments using accuracy as key evaluation metric is very misleading and not recommended. This is because of the very unbalanced data set (90% for the majority class). 
+  
+  In the given business context, identification of bank's clients that would accept a marketing campaing promotion (in this case a good interest rate deposit), the most important evaluation metrics are Precision, Recall and F1-Score overall. However, an even more important metric are Precision, Recall and F1-Score the context of the minority class 1 (which in this case is the accepted promotion). 
+  
+  Considering the above, the experiments were designed to optimise(increase) F1-Score, which is a better metric for unbalanced dataset because is representing the optimal point between precision and recall metrics. 
 </div>
 
-- Models selection and optimization techniques considered two stages:
+- **Models selection and optimization techniques** considered two stages:
   1. Selecting the best model using **GridSearch** and adjusting the hyperparameters for the best F1-score
   2. Finding the **optimal probability threeshold** for each model and comparing the results for **F1-Score maximization**
-- Techniques used to deal with unbalanced nature of the dataset and its size in Experiment A:
+- **Techniques used to deal with unbalanced nature of the dataset** and its size in Experiment A:
    - **Oversampling** using SMOTE
    - **UnderSampling** using: RandomUnderSampler, NearMiss-version1, EditedNearestNeighbours
    - **class_weight='balanced'** for all models where applicable
@@ -75,36 +80,34 @@ This marketing dataset is related to 17 marketing campaigns that occurred betwee
 - This is clearly observed by comparing the F1-Score, Precision and Recall metrics for both experiments. I have used Confusion Matrix, and Classification Report for a deeper dive into the performance of each model.
  
 - The **best model from Experiment-A and also overall** is: **LogisticRegression Model** with below results:
-<br>
+
 <br>
 <div align="center">
   <img src="data/Experiment-A_res.png" alt="Experiment-A Results">
 </div>
 <br>
-<br>
 
-  - The best models for Experiment-B is: **Support Vector Machine (SVM)** with below results:
-<br>
+  - The best models for Experiment-B is: **Support Vector Machine (SVM)** with below results. However these rezults are below the results obtained in Experiment-A:
+
 <br>
 <div align="center">
   <img src="data/Experiment-B_res.png" alt="Experiment-B Results">
 </div>
 <br>
-<br>
 
 - For each models (where reasonable possible) I've also extracted the most relevant features:
 
+- In both experiments I've managed to get a pretty good **ROC of 0.93 for Experiment-B** and **ROC of 0.91 for Experiment-A**.
 
-- In both experiments I've managed to get a pretty good ROC score 0.93 for Experiment-B and 0.91 for Experiment-A. Nevertheless, ROC for Experiment-B is slighly better but only because the optimization was performed for F1-Score and not ROC. However ROC, confirms that bots experiments show good good results.
-<br>
+Nevertheless, ROC for Experiment-B is slighly better but only because the optimization was performed for F1-Score and not ROC. However ROCs, confirm that boht experiments show good results.
+
 <br>
 <div align="center">
   <img src="data/ROCs_Plot.jpg" alt="ROCs Results">
 </div>
 <br>
-<br>
 
-- Nest step is to try new more powerfull models to further improve F1-Score
+- Nest step is to try new more powerfull models to further improve metrics and the overall F1-Score
 
 
 ## **Business related findings and recommendations:**
