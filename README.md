@@ -52,9 +52,11 @@ This marketing dataset is related to 17 marketing campaigns that occurred betwee
 **Output variable (desired target):**
 
 - y: has the client subscribed a term deposit? (binary: "yes","no")
+  
+##
+## Access the notebook file here: --->>> [Jupyter Notebook file](PA17_1.ipynb)
 
-## **Jupyter notebook file** : [Jupyter Notebook file](PA17_1.ipynb)
-
+<Br>
 
 ## **Overall technical findings**
 <div align="justify">
