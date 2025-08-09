@@ -2,10 +2,10 @@
 
 ## Overview: 
 In this practical application, the goal is to compare the performance of the classifiers performances, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines.  I will utilize a dataset related to marketing bank products over the telephone.  
-
+##
 ### Dataset source location and context description:
 The dataset comes from the UCI Machine Learning repository [link](https://archive.ics.uci.edu/ml/datasets/bank+marketing).  The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns during a two years period.
-
+##
 ### Dataset details:
 This marketing dataset is related to 17 marketing campaigns that occurred between May 2008 and November 2010, run by a Portuguese bank that used its own contact-center to do directed marketing campaigns for a long-term deposit application with good interest rates.
 
@@ -135,7 +135,7 @@ This will allow the bank to exclude from the campaing the clients that would not
 
 In this scenario the bank will have a bigger list of clients to be targeted by the marketing campaign, than in the first scenario. In this list the percentaee of clients that will accept the promotion is significantly higher than **45.5%** specific to scenario 1. 
 In this case the bank would miss only **5%** of the total clients that are in the database, but not part of the campaing.
-
+##
 ## **Next step to improve the results:**
 
 - Nest step is to try new more powerfull models to further improve F1-Score
