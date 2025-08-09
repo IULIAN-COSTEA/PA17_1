@@ -1,4 +1,4 @@
-# Call Center Marketing Campaign for a Bank
+# Call Center Marketing Campaign for a Bank in Portugal
 
 ## Overview: 
 In this practical application, the goal is to compare the performance of the classifiers performances, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines.  I will utilize a dataset related to marketing bank products over the telephone.  
