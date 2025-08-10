@@ -118,7 +118,7 @@ The selected model should help the bank to choose the correct list of clients to
 
 **Marketing campaing run recommendation:**
 
-From the dataset exploration it can be concluded that for optimal results the marketing campaign should run between **April**, **May**, **June**, **July** and **August**. This is because these are the months with the **highest reponse rate, between 10% - 14%**.
+From the dataset exploration it can be concluded that for optimal results the marketing campaign should run between **April**, **May**, **June**, **July** and **August**. This is because these are the months with the **highest reponse rate, above 10%**.
 
 This can be seen in below chart:
 
