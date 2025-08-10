@@ -116,6 +116,18 @@ Nevertheless, ROC for Experiment-B is slighly better but only because the optimi
 
 The selected model should help the bank to choose the correct list of clients to be included in a new marketing campaign. The should be efficient and maximize its Return on Investment (ROI). The campaing will promote a new product (bank deposit with promotional rates) and the success should be measured by the number of clients that created new deposits as the result of the marketing campaign.
 
+*Marketing campaing run recommendation:*
+
+From the dataset exploration it can be concluded that for optimal results the marketing campaign should run between **April**, **May**, **June**, **July** and **August**. This is because these are the months with the **highest reponse rate, between 10% - 14%**.
+
+This can be seen in below chart:
+
+<br>
+<div align="center">
+  <img src="data/percentage_by_month.png" alt="Percentage of reponse rate by month">
+</div>
+<br>
+
 **Scenario-1:** - *Marketing campaign with cost optimization*
 
 With the **selected Logistic Regression model** if the bank intend to launch a very targeted campaing while keeping the campaing cost optimal, then with this model they should be able to **identify a list of clients that should be targeted by the new promotion campaign**. 
